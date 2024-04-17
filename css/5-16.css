@@ -1,0 +1,49 @@
+#wrapper{
+	height: 100vh;
+    /*テキストを中央寄せ*/
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+}
+
+a{
+	color: #333;
+}
+
+/*========= LoadingのためのCSS ===============*/
+
+/* Loading背景画面設定　*/
+
+#splash {
+    /*fixedで全面に固定*/
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background:#fff;
+	text-align:center;
+	color:#ff1493;
+}
+
+/* Loadingバー中央配置　*/
+#splash_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    z-index: 999;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	color: #ff1493;
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+
+#container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
